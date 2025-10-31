@@ -246,6 +246,7 @@ function createDispatcher(store, bus, registry) {
 function initSingleton() {
     const initial = {
         slides: [],
+        slidesObj: {},
         activeSlideId: null,
         ui: { baseFloaterConfig: null, inlineFloaterConfig: null },
         selectedNode: {},
